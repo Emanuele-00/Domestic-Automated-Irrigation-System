@@ -5,7 +5,7 @@ This is the source-code for the Plant-Monitoring sensor Node.
 //constants required for the connection to Blynk Server
 #define BLYNK_TEMPLATE_ID "TMPL4LPV8L4vx"
 #define BLYNK_TEMPLATE_NAME "Moisture"
-#define BLYNK_AUTH_TOKEN "Dz_nmaYygJ4XKOc1Qhw3CxlPI0wCRZFD"
+#define BLYNK_AUTH_TOKEN "Blyn Token"
 
 #include <coap-simple.h>
 #include <WiFi.h>
@@ -48,11 +48,11 @@ const char* mqtt_pass = "francesca";            //corresponding password
 /*INFLUX SECTION*/
 #define INFL 19
 const char* INFLUXDB_URL = "https://eu-central-1-1.aws.cloud2.influxdata.com";
-const char* INFLUXDB_TOKEN = "003bmH246arOVtY8aLmpeMvG2d3MXM8iuEX-BWka7Jw79WsuA2cKD4qQ7PRgJLJHpeurgTWTzDfFRBFi2kBjPw==";
+const char* INFLUXDB_TOKEN = "influxTOKEN1";
 const char* INFLUXDB_ORG = "ALMA MATER STUDIORUM - University of Bologna";
 const char* INFLUXDB_BUCKET = "Plant-monitoring";                             //bucket to collect moisture data
 const char* evaluation_bucket = "Evaluations";                                //bucket to collect performance evaluation data
-const char* eval_token = "4ot08hVYjQ2IFySjslMkTAmxNqIl072h3BRAD_Ts-dglaBaIg6RFaW1pVqJcj7L2Vno8QSM7oKRxal7GN4XA9g==";
+const char* eval_token = "influxTOKEN2";
 
 /*BLYNK*/
 #define BLYNK_TIMEOUT 5000                            //maximum time allocated for Blynk Server connection trial

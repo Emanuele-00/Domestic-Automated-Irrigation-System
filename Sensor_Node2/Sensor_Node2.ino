@@ -3,7 +3,7 @@
 //constants required for the connection to Blynk Server
 #define BLYNK_TEMPLATE_ID "TMPL4LPV8L4vx"
 #define BLYNK_TEMPLATE_NAME "Moisture"
-#define BLYNK_AUTH_TOKEN "Dz_nmaYygJ4XKOc1Qhw3CxlPI0wCRZFD"
+#define BLYNK_AUTH_TOKEN "Blynk Token"
 #include <ESPmDNS.h>
 #include <WiFi.h>
 #include <WiFiClient.h>
